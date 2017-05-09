@@ -1,0 +1,119 @@
+/*
+  960 Grid System ~ Text CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+  font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+pre,
+code {
+  font-family: "DejaVu Sans Mono", Menlo, Consolas, monospace;
+}
+
+hr {
+  border: 0 solid #ccc;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+  font-size: 7.4rem;
+  line-height: 8rem;
+  font-weight: 300;
+ font-family: 'montserratbold';
+ text-transform: uppercase;
+ text-align:center;
+}
+
+h2 {
+  font-size: 1.9rem;
+  line-height:3rem;
+  font-family: 'kaushan_scriptregular';
+  text-transform: uppercase;
+  text-align:center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-height: 2.2rem;
+  text-align:center;
+}
+
+h4 {
+  font-size: 0.9rem;
+  line-height:2rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+#HeaderCenter p{
+	font-size: 3.5rem;
+  line-height:4rem;
+  font-family: 'kaushan_scriptregular';
+}
+
+header p {
+	text-align: center;
+	padding: 20px;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  display: inline-block;
+	display: -webkit-flex;
+	margin-bottom: 0px;
+}
+
+li {
+  margin-left: 30px;
+  display: inline-block;
+	display: inline-block;
+	list-style-type:none;
+	padding: 15px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 20px;
+}
