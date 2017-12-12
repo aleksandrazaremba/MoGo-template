@@ -1,3 +1,6 @@
+body{
+}
+
 .btn{
 	padding-top:20px;
 	display: inline-block;
@@ -7,7 +10,7 @@
 	a{
 		border:solid 1px white;
 		border-radius: 3px;
-		padding:10px;
+        padding:10px;
 
 		&:hover{
 			color: #eee;
@@ -16,7 +19,7 @@
 		}
 		&:active {
 			box-shadow: 2px 2px #666;
-			transform: translateY(2px);
+            transform: translateY(2px);
 		  }
 	}
 }
