@@ -23,7 +23,6 @@ header{
 	width: 100px;
 	overflov: hidden;
 	margin-bottom:10px;
-
 }
 
 .btn{
@@ -31,7 +30,6 @@ header{
 	display: inline-block;
 	display: -webkit-flex;
 	border-radius: 5px;
-	
 }
 
 .btn a:hover{
