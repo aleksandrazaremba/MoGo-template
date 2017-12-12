@@ -1,12 +1,13 @@
+/*
 .separator{
 }
 .btn{
 }
 
-body{
-	
+body{	
 }
 /*------------------------------------------*/
+/*
 header{
 	margin: 30px 0px 30px 0px;
 }
@@ -30,25 +31,26 @@ header{
 	display: inline-block;
 	display: -webkit-flex;
 	border-radius: 5px;
+
+	a{
+		border:solid 1px white;
+		border-radius: 3px;
+		padding:10px;
+
+		&:hover{
+			color: #eee;
+			box-shadow: 2px 2px #666;
+			transform: translateY(1px);
+		}
+		&:active {
+			box-shadow: 2px 2px #666;
+			transform: translateY(2px);
+		  }
+	}
 }
 
-.btn a:hover{
-	color: #eee;
-	box-shadow: 2px 2px #666;
-	transform: translateY(1px);
-}
 
-.btn a:active {
-  box-shadow: 2px 2px #666;
-  transform: translateY(2px);
-}
 
-.btn a{
-	border:solid 1px white;
-	border-radius: 3px;
-	padding:10px;
-	
-}
 
 .a{
 	text-decoration: none;
@@ -107,7 +109,10 @@ header{
 	height: 100%;
 }
 
-.hover{		
+.hover{	
+	
+	
+
 }
 
 .inline-block{
@@ -118,7 +123,7 @@ header{
 
 
 /*------------IMAGE HOVER------------------*/
-
+/*
 .image-hover {
   opacity: 1;
   display: block;
@@ -154,7 +159,7 @@ header{
 }
 /*------------------------------------------*/
 
-
+/*
 #Header{
 	height: 850px;
 }
@@ -202,7 +207,9 @@ header{
 	transform: translateY(5px);
 }
 
+
 /*------------------------------------------*/
+/*
 .a-s-img{
 	padding-right:15px;
 }
@@ -353,7 +360,7 @@ header{
 
 /*--------------COUNTER----------------------------*/
 
-
+/*
 #shiva
 {
   width: 100px;
