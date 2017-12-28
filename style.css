@@ -175,41 +175,53 @@
   .mot-box-div {
     text-align: center;
     padding-top: 20px; }
+  #portfolio {
+    text-align: center; }
   #SomeOfOurWorkPics {
     position: relative;
-    height: 800px; }
-  #portfolio {
-    width: 200px; }
+    height: 600px; }
   .p_i_p {
-    width: 25%; }
+    width: 25%;
+    position: absolute;
+    display: inline; }
+    .p_i_p img {
+      max-width: 100%;
+      vertical-align: middle; }
   .portfolio_item1 {
-    left: 0px;
-    top: 0px;
-    position: absolute; }
+    left: 0%;
+    top: 0%;
+    position: absolute;
+    width: 25%; }
   .portfolio_item2 {
-    left: 355px;
-    top: 0px;
-    position: absolute; }
+    left: 25%;
+    top: 0%;
+    position: absolute;
+    width: 25%; }
   .portfolio_item3 {
-    left: 0px;
-    top: 289px;
-    position: absolute; }
+    left: 0%;
+    top: 50%;
+    position: absolute;
+    width: 25%; }
   .portfolio_item4 {
-    left: 355px;
-    top: 289px;
-    position: absolute; }
+    left: 25%;
+    top: 50%;
+    position: absolute;
+    width: 25%; }
   .portfolio_item5 {
-    left: 711px;
-    top: 0px;
-    position: absolute; }
+    left: 50%;
+    top: 0%;
+    position: absolute;
+    width: 25%; }
   .portfolio_item6 {
-    left: 1067px;
-    top: 0px;
-    position: absolute; }
+    left: 75%;
+    top: 0%;
+    position: absolute;
+    width: 25%; }
   .portfolio_item7 {
-    left: 1067px;
-    top: 289px;
-    position: absolute; }
+    left: 75%;
+    top: 50%;
+    position: absolute;
+    width: 25%; }
   .soow-slider {
     margin: 10px;
     padding: 90px; }
@@ -228,4 +240,17 @@
     margin: 8px 20px 0px 20px; }
   .wps-p {
     width: 250px; }
-  /*------------------------------------------*/ }
+  .LatestBlogBox img {
+    width: 100%; }
+  /*---FOOTER---------------------------------*/
+  .FooterRightPic {
+    width: calc(100% / 3);
+    display: inline-flex;
+    float: left; }
+    .FooterRightPic img {
+      width: 100%; }
+  /*------------------------------------------*/
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both; } }

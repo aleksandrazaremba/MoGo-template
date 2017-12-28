@@ -280,57 +280,65 @@ header{
 	
 }
 
-#SomeOfOurWorkPics{
-	position: relative;
-	height: 800px;
-}
 
 #portfolio{
 	//display: inline-block;
 	//display: -webkit-flex;
-	width: 200px;
+	text-align: center;
+}
+
+#SomeOfOurWorkPics{
+	position: relative;
+	height: 600px;
 }
 
 .p_i_p{
 	width: 25%;
-	//position: absolute;
-	//display: inline-block;
-	//display: -webkit-flex;
+	position: absolute;
+	display: inline;
+	img{
+		max-width: 100%;
+		vertical-align: middle;
+	}
 }
 
-@mixin portfolio_item($left, $top, $position){
+
+
+@mixin portfolio_item($left, $top, $position, $width){
 	left: $left;
 	top: $top;
 	position: $position;
+	width: $width;
 }
 
 .portfolio_item1{
-	@include portfolio_item(0px, 0px, absolute)
+	@include portfolio_item(0%, 0%, absolute, 25%)
 }
 
 .portfolio_item2{
-	@include portfolio_item(355px, 0px, absolute)
+	@include portfolio_item(25%, 0%, absolute, 25%)
 }
 
 .portfolio_item3{
-	@include portfolio_item(0px, 289px, absolute)
+	@include portfolio_item(0%, 50%, absolute, 25%)
 }
 
 .portfolio_item4{
-	@include portfolio_item(355px, 289px, absolute)
+	@include portfolio_item(25%, 50%, absolute, 25%)
 }
 
 .portfolio_item5{
-	@include portfolio_item(711px, 0px, absolute)
+	@include portfolio_item(50%, 0%, absolute, 25%)
 }
 
 .portfolio_item6{
-	@include portfolio_item(1067px, 0px, absolute)
+	@include portfolio_item(75%, 0%, absolute, 25%)
 }
 
 .portfolio_item7{
-	@include portfolio_item(1067px, 289px, absolute)
+	@include portfolio_item(75%, 50%, absolute, 25%)
 }
+
 
 .soow-slider{
 	margin: 10px;
@@ -364,6 +372,30 @@ header{
 	width:250px;
 }
 
+.LatestBlogBox{
+	img{
+		width: 100%;
+	}
+}
+
+/*---FOOTER---------------------------------*/
+
+.FooterRightPic{
+	width: calc(100% / 3);
+	display: inline-flex;
+	float: left;
+	img{
+		width: 100%;
+	}
+}
+
+
 /*------------------------------------------*/
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
 
 }//media screen
