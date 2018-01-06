@@ -3,6 +3,10 @@
 body{
 }
 
+header{
+	margin: 0px 0px 0px 0px;
+}
+
 @mixin background($background, $background-size, $z-index){
 	background: $background;
 	background-size: $background-size;
@@ -16,16 +20,18 @@ body{
 	color: $color;
 }
 
-.bg{
+.header__background{
 	@include background(url(img/bg.jpg) no-repeat center, 100% 100%, 1)
+	height: 850px;
 }
 
-.UDbg{
+.section__UniqueDesign--background{
 	@include background(url(img/UDbg.jpg) no-repeat center, 100% 100%, 0)
 }
 
-.Mapbg{
+.section__map--background{
 	@include background(url(img/LBmapbg.jpg) no-repeat center, 100% 100%, 0)
+	height: 200px;
 }
 
 .WPSbg{
@@ -44,7 +50,7 @@ body{
 	@include overlay(rgba(76, 61, 114, 0.1), 100%, 100%, null)
 }
 
-.SAUbgGreen{
+.section__counter--background{
 	@include overlay(#3bd3ba, 100%, 100%, white)
 }
 
@@ -78,10 +84,6 @@ body{
 	color: white;
 }
 
-header{
-	margin: 0px 0px 0px 0px;
-}
-
 .separator{
 	border: solid 2px rgb(243,129, 129);
 	width:20%;
@@ -103,11 +105,8 @@ header{
 
 
 /*--------------------------------------------------*/
-#Header{
-	height: 850px;
-}
 
-#HeaderStickMenu{
+#header__stickmenu--position{
 	height: 25px;
 	padding:10px;
 	ul li{
@@ -124,20 +123,20 @@ header{
 	}
 }
 
-#HeaderCenter{
+.header__center{
 	height: 500px;
 	text-align:center;
 	padding: 100px;
 }
 
-#HeaderBottom{
+.header__bottom{
 	margin-top: 10px;
 	height: 72px;
-	display: inline-block;
+	//display: inline-block;
 	display: -webkit-flex;
 }
 
-.HeaderBottomBox{
+.header__bottombuttons{
 	padding: 20px;
 	width: 20%;
 		&:hover{
@@ -222,15 +221,15 @@ header{
 	padding-top: 30px;
 }
 
-#StoryAboutUsBottom{
+.section__counter{
 	display: inline-block;
 	display: -webkit-flex;
 	
 }
 
-.StoryAboutUsBottomBox{
-	text-align:center;
-}
+//.StoryAboutUsBottomBox{
+//	text-align:center;
+//}
 
 .StoryAboutUsBoxPics{ 	
 	img{
@@ -348,10 +347,6 @@ header{
 .soow-pic{
 	margin: 10px;
 	padding: 20px;
-}
-
-#map{
-	height:200px;
 }
 
 #latest-blog-bottom{
