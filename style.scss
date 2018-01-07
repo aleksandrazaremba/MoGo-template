@@ -7,6 +7,11 @@ header{
 	margin: 0px 0px 0px 0px;
 }
 
+.inline-block{
+	display: inline-block;
+	display: -webkit-flex;
+}
+
 @mixin background($background, $background-size, $z-index){
 	background: $background;
 	background-size: $background-size;
@@ -57,8 +62,6 @@ header{
 
 .btn{
 	padding-top:20px;
-	display: inline-block;
-	display: -webkit-flex;
 	border-radius: 5px;
 	
 
@@ -98,12 +101,6 @@ header{
 	margin-bottom:10px;
 }
 
-.inline-block{
-	display: inline-block;
-	display: -webkit-flex;
-}
-
-
 /*--------------------------------------------------*/
 
 #header__stickmenu--position{
@@ -132,8 +129,6 @@ header{
 .header__bottom{
 	margin-top: 10px;
 	height: 72px;
-	//display: inline-block;
-	display: -webkit-flex;
 }
 
 .header__bottombuttons{
@@ -212,24 +207,10 @@ header{
 	padding-right:15px;
 }
 
-#AmazingServicesBottom{
-	height: 500px;
-}
-
-.AmazingServicesBottomOneBox{
+.section__amazingservices--box{
 	margin: 0px 0px 0px 0px;
 	padding-top: 30px;
 }
-
-.section__counter{
-	display: inline-block;
-	display: -webkit-flex;
-	
-}
-
-//.StoryAboutUsBottomBox{
-//	text-align:center;
-//}
 
 .StoryAboutUsBoxPics{ 	
 	img{
@@ -239,21 +220,18 @@ header{
 	}
 }
 
-#what-we-do-left{
+.section__whatwedo--img{
 	height: 500px;
-}
-
-#what-we-do-left{
 	img{
 	width: 100%;
 	}
 }
 
-#MeetOurTeam{
+.section__meetourteam{
 	height: 800px;
 }
 
-#wwd-ul-li ul, ul li{
+.section__whatwedo--list ul, ul li{
 		display:block;
 		list-style:none;
 }
@@ -271,18 +249,7 @@ header{
 	padding-top:20px;
 }
 
-#SomeOfOurWork{
-	
-}
-
-#SomeOfOurWorkHeader{
-	
-}
-
-
 #portfolio{
-	//display: inline-block;
-	//display: -webkit-flex;
 	text-align: center;
 }
 
