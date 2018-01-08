@@ -39,7 +39,7 @@ header{
 	height: 200px;
 }
 
-.WPSbg{
+.section__whatpeoplesay--background{
 	@include background(url(img/WPSbg.jpg) no-repeat center, 100% 100%, 0)
 }
 
@@ -176,14 +176,14 @@ header{
 	backface-visibility: hidden;
   }
   
-  .middle {
+  .image__hover--middle{
 	transition: .5s ease;
 	opacity: 0;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%)
+	-ms-transform: translate(-50%, -50%);
   }
   .image-hover-container {
 	  position: relative;
@@ -197,7 +197,7 @@ header{
 	transform: translateX(5px);
   }
   
-  .image-hover-container:hover .middle {
+  .image-hover-container:hover .image__hover--middle{ //"after hover text is visible"
 	opacity: 1;
   }
   /*------------------------------------------*/
@@ -212,7 +212,7 @@ header{
 	padding-top: 30px;
 }
 
-.StoryAboutUsBoxPics{ 	
+.storyaboutus__boxpics{ 	
 	img{
 	margin: 10px;
 	width: 100%;
@@ -236,7 +236,7 @@ header{
 		list-style:none;
 }
 
-.mot-box {
+.section__meetourteam--personbox {
 	img{
 	width: 300px;
 	height: auto;
@@ -244,7 +244,7 @@ header{
 	}
 }
 
-.mot-box-div{
+.section__meetourteam--persondescription{
 	text-align: center;
 	padding-top:20px;
 }
@@ -253,7 +253,7 @@ header{
 	text-align: center;
 }
 
-#SomeOfOurWorkPics{
+.someofourwork__pics{
 	position: relative;
 	height: 600px;
 }
@@ -306,12 +306,12 @@ header{
 }
 
 
-.soow-slider{
+.someofourwork__slider{
 	margin: 10px;
 	padding: 90px;
 }
 
-.soow-pic{
+.someofourwork__slider--pic{
 	margin: 10px;
 	padding: 20px;
 }
@@ -322,19 +322,19 @@ header{
 	color:#f38181;
 }
 
-.what-people-say-box{
+.whatpeoplesay__box{
 	margin: 20px 10px 30px 10px;
 }
 
-.wps-img{
+.whatpeoplesay__img{
 	margin: 8px 20px 0px 20px;
 }
 
-.wps-p{
+.whatpeoplesay__p{
 	width:250px;
 }
 
-.LatestBlogBox{
+.latestblog__box{
 	img{
 		width: 100%;
 	}
@@ -342,7 +342,7 @@ header{
 
 /*---FOOTER---------------------------------*/
 
-.FooterRightPic{
+.footer__instagrampics{
 	width: calc(100% / 3);
 	display: inline-flex;
 	float: left;

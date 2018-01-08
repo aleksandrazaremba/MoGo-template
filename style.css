@@ -18,7 +18,7 @@
     background-size: 100% 100%;
     z-index: 0;
     height: 200px; }
-  .WPSbg {
+  .section__whatpeoplesay--background {
     background: url(img/WPSbg.jpg) no-repeat center;
     background-size: 100% 100%;
     z-index: 0; }
@@ -119,7 +119,7 @@
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden; }
-  .middle {
+  .image__hover--middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -135,7 +135,7 @@
     box-shadow: 5px 5px #666;
     transform: translateY(5px);
     transform: translateX(5px); }
-  .image-hover-container:hover .middle {
+  .image-hover-container:hover .image__hover--middle {
     opacity: 1; }
   /*------------------------------------------*/
   /*------------------------------------------*/
@@ -144,7 +144,7 @@
   .section__amazingservices--box {
     margin: 0px 0px 0px 0px;
     padding-top: 30px; }
-  .StoryAboutUsBoxPics img {
+  .storyaboutus__boxpics img {
     margin: 10px;
     width: 100%;
     height: 100%; }
@@ -157,16 +157,16 @@
   .section__whatwedo--list ul, ul li {
     display: block;
     list-style: none; }
-  .mot-box img {
+  .section__meetourteam--personbox img {
     width: 300px;
     height: auto;
     position: relative; }
-  .mot-box-div {
+  .section__meetourteam--persondescription {
     text-align: center;
     padding-top: 20px; }
   #portfolio {
     text-align: center; }
-  #SomeOfOurWorkPics {
+  .someofourwork__pics {
     position: relative;
     height: 600px; }
   .p_i_p {
@@ -211,30 +211,30 @@
     top: 50%;
     position: absolute;
     width: 25%; }
-  .soow-slider {
+  .someofourwork__slider {
     margin: 10px;
     padding: 90px; }
-  .soow-pic {
+  .someofourwork__slider--pic {
     margin: 10px;
     padding: 20px; }
   #latest-blog-bottom {
     margin: 80px;
     text-align: center;
     color: #f38181; }
-  .what-people-say-box {
+  .whatpeoplesay__box {
     margin: 20px 10px 30px 10px; }
-  .wps-img {
+  .whatpeoplesay__img {
     margin: 8px 20px 0px 20px; }
-  .wps-p {
+  .whatpeoplesay__p {
     width: 250px; }
-  .LatestBlogBox img {
+  .latestblog__box img {
     width: 100%; }
   /*---FOOTER---------------------------------*/
-  .FooterRightPic {
+  .footer__instagrampics {
     width: calc(100% / 3);
     display: inline-flex;
     float: left; }
-    .FooterRightPic img {
+    .footer__instagrampics img {
       width: 100%; }
   /*------------------------------------------*/
   .clearfix:after {
