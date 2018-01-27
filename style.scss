@@ -25,6 +25,11 @@ header{
 	color: $color;
 }
 
+.logo{
+	font-size: 2em;
+	font-weight: bold;
+}
+
 .header__background{
 	@include background(url(img/bg.jpg) no-repeat center, 100% 100%, 1)
 	height: 850px;
@@ -63,7 +68,7 @@ header{
 .btn{
 	padding-top:20px;
 	border-radius: 5px;
-	
+	justify-content: center;
 
 	a{
 		border:solid 1px white;
@@ -106,12 +111,16 @@ header{
 #header__stickmenu--position{
 	height: 25px;
 	padding:10px;
-	ul li{
-		text-transform: uppercase;
-		&:hover{
-			border-bottom: solid 2px rgb(243,129, 129);
-			padding-bottom: 10px;
-			color: rgb(243,129, 129);
+	ul{
+		justify-content: space-between; 
+		li{
+			text-transform: uppercase;
+			margin-left: 0px;
+			&:hover{
+				border-bottom: solid 2px rgb(243,129, 129);
+				padding-bottom: 10px;
+				color: rgb(243,129, 129);
+			}
 		}
 	}
 
@@ -124,11 +133,15 @@ header{
 	height: 500px;
 	text-align:center;
 	padding: 100px;
+	p{
+		font-size: 4.5em;
+	}
 }
 
 .header__bottom{
 	margin-top: 10px;
 	height: 72px;
+	justify-content: space-between;
 }
 
 .header__bottombuttons{
@@ -142,6 +155,13 @@ header{
 		}
 }
 
+.sections--position{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+
+
 /*--------------COUNTER----------------------------*/
 #shiva{
   width: calc(100% / 6);
@@ -150,12 +170,14 @@ header{
   float:left;
   margin:4px 0px 4px 0px;
   //padding: 10px 0px 10px 0px;
+  text-align: center;
+  justify-content: space-between;
 }
 
 .count{
   line-height: 50px;
   color:white;
-  margin-left:30px;
+  //margin-left:30px;
   font-size:25px;
 }
 
@@ -206,6 +228,7 @@ header{
 .a-s-img{
 	padding-right:15px;
 }
+
 
 .section__amazingservices--box{
 	margin: 0px 0px 0px 0px;

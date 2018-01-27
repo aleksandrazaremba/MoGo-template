@@ -4,6 +4,9 @@
   .inline-block {
     display: inline-block;
     display: -webkit-flex; }
+  .logo {
+    font-size: 2em;
+    font-weight: bold; }
   .header__background {
     background: url(img/bg.jpg) no-repeat center;
     background-size: 100% 100%;
@@ -43,7 +46,8 @@
     color: white; }
   .btn {
     padding-top: 20px;
-    border-radius: 5px; }
+    border-radius: 5px;
+    justify-content: center; }
     .btn a {
       border: solid 1px white;
       border-radius: 3px;
@@ -72,21 +76,27 @@
   #header__stickmenu--position {
     height: 25px;
     padding: 10px; }
-    #header__stickmenu--position ul li {
-      text-transform: uppercase; }
-      #header__stickmenu--position ul li:hover {
-        border-bottom: solid 2px #f38181;
-        padding-bottom: 10px;
-        color: #f38181; }
+    #header__stickmenu--position ul {
+      justify-content: space-between; }
+      #header__stickmenu--position ul li {
+        text-transform: uppercase;
+        margin-left: 0px; }
+        #header__stickmenu--position ul li:hover {
+          border-bottom: solid 2px #f38181;
+          padding-bottom: 10px;
+          color: #f38181; }
     #header__stickmenu--position a {
       text-transform: uppercase; }
   .header__center {
     height: 500px;
     text-align: center;
     padding: 100px; }
+    .header__center p {
+      font-size: 4.5em; }
   .header__bottom {
     margin-top: 10px;
-    height: 72px; }
+    height: 72px;
+    justify-content: space-between; }
   .header__bottombuttons {
     padding: 20px;
     width: 20%; }
@@ -95,17 +105,21 @@
       padding-bottom: 20px;
       color: #f38181;
       transform: translateY(5px); }
+  .sections--position {
+    padding-top: 2em;
+    padding-bottom: 2em; }
   /*--------------COUNTER----------------------------*/
   #shiva {
     width: calc(100% / 6);
     height: 10%;
     background: #3bd3ba;
     float: left;
-    margin: 4px 0px 4px 0px; }
+    margin: 4px 0px 4px 0px;
+    text-align: center;
+    justify-content: space-between; }
   .count {
     line-height: 50px;
     color: white;
-    margin-left: 30px;
     font-size: 25px; }
   .counter-text {
     color: white;
@@ -141,6 +155,8 @@
   /*------------------------------------------*/
   .a-s-img {
     padding-right: 15px; }
+  .amazingservices__boxes--position {
+    justify-content: space-between; }
   .section__amazingservices--box {
     margin: 0px 0px 0px 0px;
     padding-top: 30px; }
