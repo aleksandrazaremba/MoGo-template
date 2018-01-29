@@ -25,7 +25,7 @@ header{
 	color: $color;
 }
 
-.logo{
+.logo__mogo{
 	font-size: 2em;
 	font-weight: bold;
 }
@@ -253,7 +253,7 @@ header{
 }
 
 .section__meetourteam{
-	height: 800px;
+	height: 700px;
 }
 
 .section__whatwedo--list ul, ul li{
@@ -277,6 +277,13 @@ header{
 #portfolio{
 	text-align: center;
 }
+
+.section__logo{
+	ul{
+		margin-bottom: 0px;
+	}
+}
+
 
 .someofourwork__pics{
 	position: relative;
