@@ -158,7 +158,6 @@ header{
 
 .sections--position{
 	padding-top: 2em;
-	//padding-bottom: 2em;
 }
 
 
@@ -281,6 +280,10 @@ header{
 .section__logo{
 	ul{
 		margin-bottom: 0px;
+		justify-content: space-between;
+		li{
+			margin-left: 0px;
+		}
 	}
 }
 
