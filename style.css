@@ -4,7 +4,7 @@
   .inline-block {
     display: inline-block;
     display: -webkit-flex; }
-  .logo {
+  .logo__mogo {
     font-size: 2em;
     font-weight: bold; }
   .header__background {
@@ -96,7 +96,7 @@
   .header__bottom {
     margin-top: 10px;
     height: 72px;
-    justify-content: space-between; }
+    text-align: center; }
   .header__bottombuttons {
     padding: 20px;
     width: 20%; }
@@ -106,10 +106,9 @@
       color: #f38181;
       transform: translateY(5px); }
   .sections--position {
-    padding-top: 2em;
-    padding-bottom: 2em; }
+    padding-top: 2em; }
   /*--------------COUNTER----------------------------*/
-  #shiva {
+  .shiva {
     width: calc(100% / 6);
     height: 10%;
     background: #3bd3ba;
@@ -124,7 +123,8 @@
   .counter-text {
     color: white;
     font-size: 20px;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 10px; }
   /*------------IMAGE HOVER------------------*/
   .image-hover {
     opacity: 1;
@@ -155,8 +155,6 @@
   /*------------------------------------------*/
   .a-s-img {
     padding-right: 15px; }
-  .amazingservices__boxes--position {
-    justify-content: space-between; }
   .section__amazingservices--box {
     margin: 0px 0px 0px 0px;
     padding-top: 30px; }
@@ -169,7 +167,7 @@
     .section__whatwedo--img img {
       width: 100%; }
   .section__meetourteam {
-    height: 800px; }
+    height: 700px; }
   .section__whatwedo--list ul, ul li {
     display: block;
     list-style: none; }
@@ -182,6 +180,11 @@
     padding-top: 20px; }
   #portfolio {
     text-align: center; }
+  .section__logo ul {
+    margin-bottom: 0px;
+    justify-content: space-between; }
+    .section__logo ul li {
+      margin-left: 0px; }
   .someofourwork__pics {
     position: relative;
     height: 600px; }
