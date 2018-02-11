@@ -1,0 +1,28 @@
+.section__counter--background{
+	@include overlay(#3bd3ba, 100%, 100%, white);
+}
+
+.shiva{
+    width: calc(100% / 6);
+    height: 10%;
+    background: #3bd3ba;
+    float:left;
+    margin:4px 0px 4px 0px;
+    //padding: 10px 0px 10px 0px;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .count{
+    line-height: 50px;
+    color:white;
+    //margin-left:30px;
+    font-size:25px;
+  }
+  
+  .counter-text{
+    color:white;
+    font-size:20px;
+    text-align: center;
+    padding-bottom: 10px;
+  }

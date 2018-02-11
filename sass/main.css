@@ -58,6 +58,50 @@
   display: inline-block;
   display: -webkit-flex; }
 
+/*------------IMAGE HOVER------------------*/
+.image-hover {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.image__hover--middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
+
+.image-hover-container {
+  position: relative;
+  width: 50%; }
+
+.image-hover-container:hover .image-hover {
+  opacity: 0.3;
+  box-shadow: 5px 5px #666;
+  transform: translateY(5px);
+  transform: translateX(5px); }
+
+.image-hover-container:hover .image__hover--middle {
+  opacity: 1; }
+
+/*------------------------------------------*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.footer__instagrampics {
+  width: calc(100% / 3);
+  display: inline-flex;
+  float: left; }
+  .footer__instagrampics img {
+    width: 100%; }
+
 header {
   margin: 0px 0px 0px 0px; }
 
@@ -102,3 +146,41 @@ header {
     padding-bottom: 20px;
     color: #f38181;
     transform: translateY(5px); }
+
+.section__counter--background {
+  background: #3bd3ba;
+  widows: 100%;
+  height: 100%;
+  color: white; }
+
+.shiva {
+  width: calc(100% / 6);
+  height: 10%;
+  background: #3bd3ba;
+  float: left;
+  margin: 4px 0px 4px 0px;
+  text-align: center;
+  justify-content: space-between; }
+
+.count {
+  line-height: 50px;
+  color: white;
+  font-size: 25px; }
+
+.counter-text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px; }
+
+.a-s-img {
+  padding-right: 15px; }
+
+.section__amazingservices--box {
+  margin: 0px 0px 0px 0px;
+  padding-top: 30px; }
+
+.section__uniquedesign--background {
+  background: url(../img/UDbg.jpg) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 0; }

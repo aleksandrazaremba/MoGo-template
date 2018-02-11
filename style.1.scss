@@ -2,107 +2,19 @@
 
 
 
-.section__uniquedesign--background{
-	@include background(url(img/UDbg.jpg) no-repeat center, 100% 100%, 0)
-}
-
 .section__map--background{
-	@include background(url(img/LBmapbg.jpg) no-repeat center, 100% 100%, 0);
+	@include background(url(../img/LBmapbg.jpg) no-repeat center, 100% 100%, 0);
 	height: 200px;
 }
 
 .section__whatpeoplesay--background{
-	@include background(url(img/WPSbg.jpg) no-repeat center, 100% 100%, 0)
+	@include background(url(../img/WPSbg.jpg) no-repeat center, 100% 100%, 0)
 }
 
-.section__counter--background{
-	@include overlay(#3bd3ba, 100%, 100%, white)
-}
 
 /*--------------------------------------------------*/
 
-
-/*--------------COUNTER----------------------------*/
-.shiva{
-  width: calc(100% / 6);
-	height: 10%;
-	background: #3bd3ba;
-  float:left;
-  margin:4px 0px 4px 0px;
-  //padding: 10px 0px 10px 0px;
-  text-align: center;
-  justify-content: space-between;
-}
-
-.count{
-  line-height: 50px;
-  color:white;
-  //margin-left:30px;
-  font-size:25px;
-}
-
-.counter-text{
-  color:white;
-  font-size:20px;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-/*------------IMAGE HOVER------------------*/
-
-.image-hover {
-	opacity: 1;
-	display: block;
-	width: 100%;
-	height: auto;
-	transition: .5s ease;
-	backface-visibility: hidden;
-  }
-  
-  .image__hover--middle{
-	transition: .5s ease;
-	opacity: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-  }
-  .image-hover-container {
-	  position: relative;
-	  width: 50%;
-  }
-  
-  .image-hover-container:hover .image-hover {
-	opacity: 0.3;
-	box-shadow: 5px 5px #666;
-	transform: translateY(5px);
-	transform: translateX(5px);
-  }
-  
-  .image-hover-container:hover .image__hover--middle{ //"after hover text is visible"
-	opacity: 1;
-  }
   /*------------------------------------------*/
-
-  /*------------------------------------------*/
-.a-s-img{
-	padding-right:15px;
-}
-
-
-.section__amazingservices--box{
-	margin: 0px 0px 0px 0px;
-	padding-top: 30px;
-}
-
-.storyaboutus__boxpics{ 	
-	img{
-	margin: 10px;
-	width: 100%;
-	height: 100%;
-	}
-}
 
 .section__whatwedo--img{
 	height: 500px;
@@ -229,24 +141,9 @@
 	}
 }
 
-/*---FOOTER---------------------------------*/
-
-.footer__instagrampics{
-	width: calc(100% / 3);
-	display: inline-flex;
-	float: left;
-	img{
-		width: 100%;
-	}
-}
 
 
-/*------------------------------------------*/
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
+
 
 
 }//media screen
