@@ -1,0 +1,20 @@
+@mixin background($background, $background-size, $z-index){
+	background: $background;
+	background-size: $background-size;
+	z-index: $z-index;
+}
+
+@mixin overlay($background, $width, $heigh, $color){
+	background: $background;
+	widows: $width;
+	height: $heigh;
+	color: $color;
+}
+
+//backgroud-image, 
+@mixin portfolio_item($left, $top, $position, $width){
+	left: $left;
+	top: $top;
+	position: $position;
+	width: $width;
+}

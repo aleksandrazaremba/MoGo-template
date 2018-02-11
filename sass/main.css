@@ -1,0 +1,104 @@
+.overlayOrange {
+  background: linear-gradient(rgba(219, 116, 117, 0.6), rgba(228, 205, 125, 0.75));
+  widows: 100%;
+  height: 100%;
+  color: white; }
+
+.overlayWhite {
+  background: rgba(237, 237, 237, 0.8);
+  widows: 100%;
+  height: 100%;
+  color: black; }
+
+.overlayGrey {
+  background: rgba(76, 61, 114, 0.1);
+  widows: 100%;
+  height: 100%; }
+
+.logo__mogo {
+  font-size: 2em;
+  font-weight: bold; }
+
+.btn {
+  padding-top: 20px;
+  border-radius: 5px;
+  justify-content: center; }
+  .btn a {
+    border: solid 1px white;
+    border-radius: 3px;
+    padding: 10px; }
+    .btn a:hover {
+      color: #eee;
+      box-shadow: 2px 2px #f0d1d1;
+      transform: translateY(1px); }
+    .btn a:active {
+      box-shadow: 2px 2px #666;
+      transform: translateY(2px); }
+
+.a {
+  text-decoration: none;
+  color: white; }
+
+.separator {
+  border: solid 2px #f38181;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.separator2 {
+  border: solid 1px #aaa;
+  width: 40%;
+  overflow: hidden;
+  margin-bottom: 10px; }
+
+.sections--position {
+  padding-top: 2em; }
+
+.inline-block {
+  display: inline-block;
+  display: -webkit-flex; }
+
+header {
+  margin: 0px 0px 0px 0px; }
+
+.header__background {
+  background: url(../img/bg.jpg) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 1;
+  height: 850px; }
+
+.header__stickmenu--position {
+  height: 25px;
+  padding: 10px; }
+  .header__stickmenu--position ul {
+    justify-content: space-between; }
+    .header__stickmenu--position ul li {
+      text-transform: uppercase;
+      margin-left: 0px; }
+      .header__stickmenu--position ul li:hover {
+        border-bottom: solid 2px #f38181;
+        padding-bottom: 10px;
+        color: #f38181; }
+  .header__stickmenu--position a {
+    text-transform: uppercase; }
+
+.header__center {
+  height: 500px;
+  text-align: center;
+  padding: 100px; }
+  .header__center p {
+    font-size: 4.5em; }
+
+.header__bottom {
+  margin-top: 10px;
+  height: 72px;
+  text-align: center; }
+
+.header__bottombuttons {
+  padding: 20px;
+  width: 20%; }
+  .header__bottombuttons:hover {
+    border-bottom: solid 2px #f38181;
+    padding-bottom: 20px;
+    color: #f38181;
+    transform: translateY(5px); }
