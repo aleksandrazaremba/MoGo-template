@@ -2,68 +2,19 @@
 
 
 
-.section__map--background{
-	@include background(url(../img/LBmapbg.jpg) no-repeat center, 100% 100%, 0);
-	height: 200px;
-}
-
-.section__whatpeoplesay--background{
-	@include background(url(../img/WPSbg.jpg) no-repeat center, 100% 100%, 0)
-}
-
-
 /*--------------------------------------------------*/
 
   /*------------------------------------------*/
 
-.section__whatwedo--img{
-	height: 500px;
-	img{
-	width: 100%;
-	}
-}
 
-.section__meetourteam{
-	height: 700px;
-}
 
-.section__whatwedo--list ul, ul li{
-		display:block;
-		list-style:none;
-}
-
-.section__meetourteam--personbox {
-	img{
-	width: 300px;
-	height: auto;
-	position: relative;
-	}
-}
-
-.section__meetourteam--persondescription{
-	text-align: center;
-	padding-top:20px;
-}
 
 #portfolio{
 	text-align: center;
 }
 
-.section__logo{
-	ul{
-		margin-bottom: 0px;
-		justify-content: space-between;
-		li{
-			margin-left: 0px;
-		}
-	}
-}
 
 
-.someofourwork__pics{
-	position: relative;
-	height: 600px;
-}
 
 .p_i_p{
 	//width: 25%;
@@ -123,17 +74,6 @@
 	color:#f38181;
 }
 
-.whatpeoplesay__box{
-	margin: 20px 10px 30px 10px;
-}
-
-.whatpeoplesay__img{
-	margin: 8px 20px 0px 20px;
-}
-
-.whatpeoplesay__p{
-	width:250px;
-}
 
 .latestblog__box{
 	img{

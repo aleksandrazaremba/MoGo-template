@@ -1,0 +1,16 @@
+.section__whatpeoplesay--background{
+    @include background(url(../img/WPSbg.jpg) no-repeat center, 100% 100%, 0)
+}
+
+.whatpeoplesay__box{
+	margin: 20px 10px 30px 10px;
+}
+
+.whatpeoplesay__img{
+	margin: 8px 20px 0px 20px;
+}
+
+.whatpeoplesay__p{
+	width:250px;
+}
+

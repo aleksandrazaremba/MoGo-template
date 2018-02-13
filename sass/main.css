@@ -184,3 +184,104 @@ header {
   background: url(../img/UDbg.jpg) no-repeat center;
   background-size: 100% 100%;
   z-index: 0; }
+
+.section__whatpeoplesay--background {
+  background: url(../img/WPSbg.jpg) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 0; }
+
+.whatpeoplesay__box {
+  margin: 20px 10px 30px 10px; }
+
+.whatpeoplesay__img {
+  margin: 8px 20px 0px 20px; }
+
+.whatpeoplesay__p {
+  width: 250px; }
+
+.section__map--background {
+  background: url(../img/LBmapbg.jpg) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 0;
+  height: 200px; }
+
+.latest-blog-bottom {
+  margin: 80px;
+  text-align: center;
+  color: #f38181; }
+
+.section__whatwedo--img {
+  height: 500px; }
+  .section__whatwedo--img img {
+    width: 100%; }
+
+.section__whatwedo--list ul, ul li {
+  display: block;
+  list-style: none; }
+
+.section__meetourteam {
+  height: 700px; }
+
+.section__meetourteam--personbox img {
+  width: 300px;
+  height: auto;
+  position: relative; }
+
+.section__meetourteam--persondescription {
+  text-align: center;
+  padding-top: 20px; }
+
+.section__logo ul {
+  margin-bottom: 0px;
+  justify-content: space-between; }
+  .section__logo ul li {
+    margin-left: 0px; }
+
+.someofourwork__pics {
+  position: relative;
+  height: 600px; }
+
+.portfolio_item1 {
+  left: 0%;
+  top: 0%;
+  position: absolute;
+  width: 25%; }
+
+.portfolio_item2 {
+  left: 25%;
+  top: 0%;
+  position: absolute;
+  width: 25%; }
+
+.portfolio_item3 {
+  left: 0%;
+  top: 50%;
+  position: absolute;
+  width: 25%; }
+
+.portfolio_item4 {
+  left: 25%;
+  top: 50%;
+  position: absolute;
+  width: 25%; }
+
+.portfolio_item5 {
+  left: 50%;
+  top: 0%;
+  position: absolute;
+  width: 25%; }
+
+.portfolio_item6 {
+  left: 75%;
+  top: 0%;
+  position: absolute;
+  width: 25%; }
+
+.portfolio_item7 {
+  left: 75%;
+  top: 50%;
+  position: absolute;
+  width: 25%; }
+
+.latestblog__box img {
+  width: 100%; }

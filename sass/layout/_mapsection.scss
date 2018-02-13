@@ -1,0 +1,11 @@
+.section__map--background{
+	@include background(url(../img/LBmapbg.jpg) no-repeat center, 100% 100%, 0);
+	height: 200px;
+}
+
+
+.latest-blog-bottom{
+	margin: 80px;
+	text-align: center;
+	color:#f38181;
+}

@@ -1,0 +1,32 @@
+.someofourwork__pics{
+	position: relative;
+	height: 600px;
+}
+
+.portfolio_item1{
+	@include portfolio_item(0%, 0%, absolute, 25%)
+}
+
+.portfolio_item2{
+	@include portfolio_item(25%, 0%, absolute, 25%)
+}
+
+.portfolio_item3{
+	@include portfolio_item(0%, 50%, absolute, 25%)
+}
+
+.portfolio_item4{
+	@include portfolio_item(25%, 50%, absolute, 25%)
+}
+
+.portfolio_item5{
+	@include portfolio_item(50%, 0%, absolute, 25%)
+}
+
+.portfolio_item6{
+	@include portfolio_item(75%, 0%, absolute, 25%)
+}
+
+.portfolio_item7{
+	@include portfolio_item(75%, 50%, absolute, 25%)
+}
